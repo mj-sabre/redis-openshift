@@ -27,7 +27,7 @@ items:
         from:
           kind: ImageStreamTag
           name: rhel7:latest
-          namespace: rc
+          namespace: redis
       type: Docker
     triggers: []
   status:
