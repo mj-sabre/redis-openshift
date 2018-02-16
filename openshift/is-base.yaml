@@ -6,5 +6,7 @@ metadata:
     app: centos7-base
     name: centos7-base
   name: centos7
-spec
-  dockerImageRepository: registry.centos.org/centos/centos:latest
+spec:
+  dockerImageRepository: registry.centos.org/centos/centos
+tags:
+   name: latest
