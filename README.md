@@ -10,8 +10,8 @@ This example assumes that you have a Openshift cluster installed and running, an
 ### Run 
 
     #make sure you have base image available
-    oc create -f https://raw.githubusercontent.com/mjudeikis/redis-openshift/master/openshift/is-base.yaml -n openshift
+    oc create -f https://raw.githubusercontent.com/mj-sabre/redis-openshift/master/openshift/is-base.yaml -n redis
     #create all components
-    oc create -f https://raw.githubusercontent.com/mjudeikis/redis-openshift/master/list.yaml
+    oc create -f https://raw.githubusercontent.com/mj-sabre/redis-openshift/master/list.yaml
     #start build and watch 
     oc start-build redis-build
