@@ -24,8 +24,8 @@ spec:
     dockerStrategy:
       from:
         kind: ImageStreamTag
-        name: rhel7:latest
-        namespace: openshift
+        name: centos:7
+        namespace: redis
     type: Docker
   triggers: []
 status:
