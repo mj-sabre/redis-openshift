@@ -5,6 +5,6 @@ metadata:
   labels:
     app: centos7-base
     name: centos7-base
-  name: centos7
+  name: centos:7
 spec:
-  dockerImageRepository: regisregistry.centos.org/dotnet/dotnet-20-runtime-centos7:latest
+  dockerImageRepository: registry.centos.org/centos/centos:7
