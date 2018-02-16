@@ -24,7 +24,7 @@ spec:
     dockerStrategy:
       from:
         kind: ImageStreamTag
-        name: centos:7
+        name: centos7
         namespace: redis
     type: Docker
   triggers: []

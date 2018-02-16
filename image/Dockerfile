@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM centos:7
+FROM centos7
 
 RUN yum install redis hostname -y ; yum clean all
 

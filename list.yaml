@@ -26,7 +26,7 @@ items:
       dockerStrategy:
         from:
           kind: ImageStreamTag
-          name: centos:7
+          name: centos7
           namespace: rc
       type: Docker
     triggers: []
