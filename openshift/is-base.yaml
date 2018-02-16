@@ -5,7 +5,7 @@ metadata:
   labels:
     app: centos7-base
     name: centos7-base
-  name: centos7
+  name: centos:7
 spec:
   dockerImageRepository: registry.centos.org/centos/centos
 tags:
