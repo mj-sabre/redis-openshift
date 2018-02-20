@@ -27,7 +27,7 @@ items:
         from:
           kind: ImageStreamTag
           name: centos:latest
-          namespace: redis
+          namespace: rc2
       type: Docker
     triggers: []
   status:
@@ -96,7 +96,7 @@ items:
         from:
           kind: ImageStreamTag
           name: redis:latest
-          namespace: redis
+          namespace: rc2
       type: ImageChange
   status: {}
 - apiVersion: v1
@@ -177,7 +177,7 @@ items:
         from:
           kind: ImageStreamTag
           name: redis:latest
-          namespace: redis
+          namespace: rc2
       type: ImageChange
     - imageChangeParams:
         automatic: true
@@ -186,7 +186,7 @@ items:
         from:
           kind: ImageStreamTag
           name: redis:latest
-          namespace: redis
+          namespace: rc2
       type: ImageChange
     - type: ConfigChange
   status: {}
@@ -252,7 +252,7 @@ items:
         from:
           kind: ImageStreamTag
           name: redis:latest
-          namespace: redis
+          namespace: rc2
       type: ImageChange
   status: {}
 - apiVersion: v1
