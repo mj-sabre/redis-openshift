@@ -45,6 +45,8 @@ function launchsentinel() {
   echo "sentinel down-after-milliseconds mymaster 60000" >> ${sentinel_conf}
   echo "sentinel failover-timeout mymaster 180000" >> ${sentinel_conf}
   echo "sentinel parallel-syncs mymaster 1" >> ${sentinel_conf}
+  echo "bind 0.0.0.0" >> ${sentinel_conf}
+  echo "protected_mode no" >> ${sentinel_conf}
 
   redis-sentinel ${sentinel_conf}
 }
